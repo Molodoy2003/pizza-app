@@ -1,0 +1,34 @@
+.search {
+	position: relative;
+	input {
+		margin-top: 10px;
+		margin-right: 300px;
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		padding: 10px 25px;
+		outline: none;
+		width: 350px;
+		border-radius: 7px;
+		&:focus {
+			border-color: rgb(206, 202, 202);
+		}
+		font-size: 16px;
+		margin-left: 100px;
+		&::placeholder {
+			font-size: 16px;
+		}
+	}
+
+	.searchIcon {
+		position: absolute;
+		top: 24px;
+		left: 105px;
+		opacity: 0.6;
+	}
+	.close {
+		position: absolute;
+		top: 24px;
+		right: 310px;
+		cursor: pointer;
+		opacity: 0.5;
+	}
+}
